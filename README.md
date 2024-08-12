@@ -2,29 +2,6 @@
 
 Este é um projeto full stack com um backend desenvolvido em Node.js e um frontend desenvolvido com uma biblioteca/framework JavaScript.
 
-## Estrutura do Projeto
-
-A estrutura do projeto é a seguinte:
-
-├── backend
-│ ├── api
-│ ├── config
-│ ├── migrations
-│ ├── schedule
-│ ├── .env
-│ ├── .gitignore
-│ ├── index.js
-│ ├── knexfile.js
-│ ├── package-lock.json
-│ └── package.json
-└── frontend
-├── node_modules
-├── public
-├── src
-├── babel.config.js
-├── package-lock.json
-├── package.json
-└── README.md
 
 ### Backend
 
