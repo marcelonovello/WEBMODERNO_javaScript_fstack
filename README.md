@@ -2,8 +2,9 @@
 
 Este é um projeto full stack com um backend desenvolvido em Node.js e um frontend desenvolvido com uma biblioteca/framework JavaScript.
 
+## Estrutura do Projeto
 
-### Backend
+### Backend:
 
 O backend é responsável por toda a lógica de negócio do aplicativo e interage com o banco de dados. Ele inclui os seguintes diretórios e arquivos principais:
 
@@ -16,7 +17,26 @@ O backend é responsável por toda a lógica de negócio do aplicativo e interag
 - `knexfile.js`: Configurações do Knex.js para manipulação de banco de dados.
 - `package.json`: Dependências do projeto e scripts de execução.
 
-### Frontend
+#### Dependências:
+- `bcrypt-nodejs`: Para hash de senhas.
+  - `body-parser`: Middleware para lidar com requisições HTTP.
+  - `consign`: Para carregar automaticamente scripts.
+  - `cors`: Para permitir requisições cross-origin.
+  - `express`: Framework para construção de APIs.
+  - `jwt-simple`: Para criação e verificação de tokens JWT.
+  - `knex`: Query builder para SQL.
+  - `moment`: Para manipulação de datas.
+  - `mongoose`: ODM para MongoDB.
+  - `node-schedule`: Para agendamento de tarefas.
+  - `passport`: Middleware para autenticação.
+  - `passport-jwt`: Estratégia JWT para Passport.
+  - `pg`: Driver para PostgreSQL.
+  - `pm2`: Gerenciador de processos de produção.
+    
+- **Dependências de desenvolvimento**:
+  - `nodemon`: Para reiniciar automaticamente o servidor durante o desenvolvimento.
+
+### Frontend:
 
 O frontend é a interface do usuário do aplicativo, desenvolvido usando uma biblioteca ou framework JavaScript. Ele inclui os seguintes diretórios e arquivos principais:
 
@@ -27,6 +47,26 @@ O frontend é a interface do usuário do aplicativo, desenvolvido usando uma bib
 - `package.json`: Dependências do frontend e scripts de execução.
 - `README.md`: Instruções para configurar e executar o frontend.
 
+#### Dependências:
+  - `axios`: Cliente HTTP para realizar requisições.
+  - `bootstrap-vue`: Integração do Bootstrap com Vue.js.
+  - `font-awesome`: Ícones para a interface.
+  - `highlightjs`: Biblioteca para destaque de sintaxe.
+  - `liquor-tree`: Componente de árvore para Vue.js.
+  - `vue`: Framework JavaScript utilizado.
+  - `vue-gravatar`: Componente Gravatar para Vue.js.
+  - `vue-mq`: Gerenciador de media queries para Vue.js.
+  - `vue-router`: Roteamento para Vue.js.
+  - `vue-toasted`: Notificações toast para Vue.js.
+  - `vue2-editor`: Editor de texto para Vue.js.
+  - `vuex`: Gerenciamento de estado para Vue.js.
+    
+ **Dependências de desenvolvimento**:
+  - `@vue/cli-plugin-babel`: Plugin Babel para Vue CLI.
+  - `@vue/cli-plugin-eslint`: Plugin ESLint para Vue CLI.
+  - `@vue/cli-service`: Serviço CLI para Vue.
+  - `vue-template-compiler`: Compilador de templates Vue.js.
+
 ### Configuração do Projeto
 
 Para configurar o projeto, siga as instruções abaixo.
@@ -34,25 +74,36 @@ Para configurar o projeto, siga as instruções abaixo.
 #### Backend
 
 1. Navegue até o diretório `backend`.
-2. Instale as dependências com:
+   ```bash
+   cd backend
+   
+3. Instale as dependências com:
 
    ```bash
    npm install
 
-3. Configure as variáveis de ambiente no arquivo .env e inicie o servidor com:
+4. Configure as variáveis de ambiente no arquivo .env e inicie o servidor com:
    ```bash
    npm start
 
 #### Frontend
 
-1. Para iniciar o servidor de desenvolvimento:
+1. Navegue até o diretório `frontend`.
+   ```bash
+   cd frontend
+
+2. Para iniciar o servidor de desenvolvimento:
    ```bash
    npm run serve
    
-2. Para compilar e minificar para produção:
+3. Para compilar e minificar para produção:
    ```bash
    npm run build
    
-3. Para verificar e corrigir problemas de linting:
+4. Para verificar e corrigir problemas de linting:
    ```bash
    npm run lint
+
+## Autor
+
+Desenvolvido por Marcelo Novello.
