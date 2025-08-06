@@ -1,28 +1,34 @@
 # Sistema de Cadastro 
 
-## 🚀 Tecnologias Utilizadas
+## 📋 Pré-requisitos:
+- Node.js 18+
+- npm/yarn
+- Git
+- Vs Code
 
-- **Backend:** Node.js, Express, Knex.js
-- **Frontend:** React.js, JSX, CSS3
-- **Banco de Dados:** MySQL
-- **Ferramentas:** Git, VS Code
+## 🚀 Tecnologias Utilizadas:
 
-## 📁 Estrutura do Projeto
+- **Backend:** Node.js, Express, Knex.js.
+- **Frontend:** React.js, JSX, CSS3.
+- **Banco de Dados:** MySQL.
+- **Ferramentas:** Git, VS Code.
+
+## 📁 Arquitetura:
 
 - `backend/`: Contém a lógica de negócio, controladores e rotas da API.
 - `frontend/`: Interface do usuário desenvolvida com React.js.
 - `migrations/`: Scripts de migração para o banco de dados.
 - `.env`: Variáveis de ambiente para configuração do projeto.
 
-## 🛠️ Funcionalidades Implementadas
+## 🛠️ Funcionalidades Implementadas:
 
 - **Cadastro de Usuários:** Sistema de registro e login.
 - **CRUD Completo:** Criação, leitura, atualização e exclusão de dados.
 - **Autenticação JWT:** Proteção de rotas com JSON Web Tokens.
 
-## ⚙️ Como Rodar o Projeto
+## ⚙️ Como Rodar o Projeto:
 
-### Backend
+### Backend:
 
 1. Navegue até o diretório `backend/`.
 2. Instale as dependências:
@@ -36,7 +42,7 @@
    ```bash
    npm start
 
-### Frontend
+### Frontend:
 1. Navegue até o diretório frontend/.
 2. Instale as dependências:
 
