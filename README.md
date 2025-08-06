@@ -31,29 +31,19 @@ Este repositório contém a implementação de um projeto full stack desenvolvid
 
    ```bash
    npm install
-Configure as variáveis de ambiente no arquivo .env.
 
-Execute o servidor:
-
-bash
-Copiar
-Editar
+3. Configure as variáveis de ambiente no arquivo .env.
+4. Execute o servidor:
 npm start
-Frontend
-Navegue até o diretório frontend/.
 
-Instale as dependências:
-
-bash
-Copiar
-Editar
+### Frontend
+1. Navegue até o diretório frontend/.
+2. Instale as dependências:
 npm install
-Inicie o servidor de desenvolvimento:
 
-bash
-Copiar
-Editar
+3. Inicie o servidor de desenvolvimento:
 npm start
+
 Acesse o frontend no navegador em http://localhost:3000.
 
 📚 Sobre o Curso
