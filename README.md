@@ -1,4 +1,4 @@
-# Projeto FullStack: Sistema de Cadastro com Node.js, Express, React e MySQL
+# Sistema de Cadastro 
 
 ## 🚀 Tecnologias Utilizadas
 
