@@ -34,15 +34,21 @@ Este repositório contém a implementação de um projeto full stack desenvolvid
 
 3. Configure as variáveis de ambiente no arquivo .env.
 4. Execute o servidor:
-npm start
+
+   ```bash
+   npm start
 
 ### Frontend
 1. Navegue até o diretório frontend/.
 2. Instale as dependências:
-npm install
+
+   ```bash
+   npm install
 
 3. Inicie o servidor de desenvolvimento:
-npm start
+
+   ```bash
+   npm start
 
 Acesse o frontend no navegador em http://localhost:3000.
 
