@@ -50,7 +50,5 @@
 
 Acesse o frontend no navegador em http://localhost:3000.
 
-📚 Sobre o Curso
+📚 Sobre o Curso:<br>
 O curso aborda o desenvolvimento web completo usando JavaScript, com foco em front-end, back-end e banco de dados.
-
-Para mais informações, acesse: Curso Web Moderno com JavaScript + Projetos.
