@@ -50,5 +50,7 @@
 
 Acesse o frontend no navegador em http://localhost:3000.
 
-📚 Sobre o Curso:<br>
-O curso aborda o desenvolvimento web completo usando JavaScript, com foco em front-end, back-end e banco de dados.
+### 👨‍💻 Autor:
+Desenvolvido por Marcelo Novello<br>
+[GitHub](https://github.com/marcelonovello) •
+[LinkedIn](https://linkedin.com/in/marcelonovello)
