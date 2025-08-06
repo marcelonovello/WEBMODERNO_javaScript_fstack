@@ -1,7 +1,5 @@
 # Projeto FullStack: Sistema de Cadastro com Node.js, Express, React e MySQL
 
-Este projeto implementa um sistema de cadastro de usuários utilizando Node.js no backend com Express, React no frontend e MySQL como banco de dados. Desenvolvido como parte do curso "Curso Web Moderno com JavaScript + Projetos" da Cod3r, ministrado por Leonardo Leitão.
-
 ## 🚀 Tecnologias Utilizadas
 
 - **Backend:** Node.js, Express, Knex.js
