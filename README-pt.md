@@ -125,46 +125,41 @@ npx knex migrate:latest
 ```
 
 ## 🚀 Uso
-### Backend
-1. Desenvolvimento:
+### Desenvolvimento:
 ```bash
+# backend
 cd backend
 npm run dev  # Desenvolvimento com hot reload
-```
 
-### Frontend
-```bash
+# frotend
 cd frontend
 npm start    # Servidor de desenvolvimento React
 ```
 
-2. Produção:
+### Produção:
 ```bash
-# Backend
+# backend
 cd backend
 npm start
-```
 
-```bash
-# Frontend
+# frotend
 cd frontend
 npm run build
 serve -s build
 ```
 
-3. Acesse o frontend no navegador em `http://localhost:3000`
+Acesse o frontend no navegador em `http://localhost:3000`
+
 
 ## 🧪 Testes
 Execute os testes usando o seguinte comando:<br>
-Backend:
+### Backend:
 ```bash
 cd backend
 npm test
 ```
 
----
-
-Frontend:
+### Frontend:
 ```bash
 cd frontend
 npm test
@@ -260,8 +255,8 @@ npx knex migrate:latest
 <summary>Gráfico de Contribuidores</summary>
 <br>
 <p align="left">
-   <a href="https://github.com{/marcelonovello/Micro-Frontends-Application/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=marcelonovello/Micro-Frontends-Application">
+   <a href="https://github.com{/marcelonovello/sistema-cadastro/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=marcelonovello/sistema-cadastro">
    </a>
 </p>
 </details>
