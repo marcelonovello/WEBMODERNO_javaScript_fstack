@@ -1,144 +1,138 @@
 [🇺🇸 English](./README.md)   |   [🇧🇷 Português](./README-pt.md)
 
-<br> <h1 align="center">SISTEMA DE CADASTRO</h1> 
-<p align="center"> Um sistema completo de cadastro com arquitetura moderna, construído com Node.js, React, MySQL e tecnologias web modernas. </p> 
-<p align="center"> <a href="https://nodejs.org/"> <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" /> </a> 
-   <a href="https://reactjs.org/"> <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" /> </a> 
-   <a href="https://www.mysql.com/"> <img src="https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white" /> </a> 
-   <a href="./LICENSE"> <img src="https://img.shields.io/badge/license-MIT-yellow?style=flat" /> </a> 
-</p>
+<br> <h1 align="center">REGISTRATION SYSTEM</h1> <p align="center"> A complete registration system with modern architecture, built with Node.js, React, MySQL and modern web technologies. </p> <p align="center"> <a href="https://nodejs.org/"> <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" /> </a> <a href="https://reactjs.org/"> <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" /> </a> <a href="https://www.mysql.com/"> <img src="https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white" /> </a> <a href="./LICENSE"> <img src="https://img.shields.io/badge/license-MIT-yellow?style=flat" /> </a> </p>
 
-## 🔎 Visão Geral
-Este projeto representa uma solução completa para gestão de cadastros de usuários, implementando uma arquitetura que separa claramente as responsabilidades entre frontend e backend. A aplicação foi desenvolvida para demonstrar boas práticas de desenvolvimento full-stack, incluindo autenticação segura, operações CRUD e uma interface intuitiva.
+## 🔎 Overview
+This project represents a complete solution for user registration management, implementing an architecture that clearly separates responsibilities between frontend and backend. The application was developed to demonstrate full-stack development best practices, including secure authentication, CRUD operations, and an intuitive interface.
 
-## 🛠 Tecnologias
+## 🛠 Technologies
 <p> <img src="https://skillicons.dev/icons?i=js,nodejs,react,mysql,git,vscode" /> </p>
 
 ---
 
-## 📑 Sumário
+## 📑 Table of Contents
 
-- 📖 [Visão Geral](#-visão-geral)
-- 🛠 [Tecnologias](#-tecnologias)
-- ✨ [Funcionalidades](#-funcionalidades)
-- 🏗 [Estrutura do Projeto](#-estrutura-do-projeto)
-- 🚀 [Começando](#-começando)
-  - 🛠 [Pré-requisitos](#-pré-requisitos)
-  - ⚙️ [Instalação](#-instalação)
-  - 🚀 [Uso](#-uso)
-  - 🧪 [Testes](#-testes)
-  	- 🔧 [Resolução de Problemas](#-resolução-de-Problemas)
-- 🗺 [Roteiro do Projeto](#-roteiro-do-projeto)
-- 👥 [Contribuindo](#-contribuindo)
-- 📄 [Licença](#-licença)
-- 📚 [Agradecimentos](#-agradecimentos)
-
----
-
-## ✨ Funcionalidades
-
-- 👥 **Cadastrar e gerenciar usuários** com sistema completo de registro e login
-- 📊 **Operações CRUD completas** - criação, leitura, atualização e exclusão de dados
-- 🔐 **Autenticação JWT** para proteção de rotas e segurança
-- 🗃️ **Banco de dados MySQL** para armazenamento robusto de dados
-- ⚡ **Desenvolvimento moderno** com ferramentas atualizadas e boas práticas
+- 📖 [Overview](#overview)
+- 🛠 [Tech Stack](#tech-stack) 
+- ✨ [Features](#features)
+- 🏗 [Project Structure](#project-structure)   
+- 🚀 [Getting Started](#getting-started)
+  - 🛠 [Prerequisites](#prerequisites)
+  - ⚙️ [Installation](#installation)
+  - 🚀 [Usage](#usage)
+  - 🧪 [Testing](#testing)
+  	- 🔧 [Troubleshooting](#troubleshooting)
+- 🗺 [Project Roadmap](#project-roadmap)  
+- 👥 [Contributing](#contributing)  
+- 📄 [License](#license)  
+- 📚 [Acknowledgments](#acknowledgments)
 
 ---
 
-## 🏗 Estrutura do Projeto
+## ✨ Features
+
+- 👥 **Register and manage users** with complete registration and login system
+- 📊 **Complete CRUD operations** - create, read, update, and delete data
+- 🔐 **JWT Authentication** for route protection and security
+- 🗃️ **MySQL database** for robust data storage
+- ⚡ **Modern development** with updated tools and best practices
+
+---
+
+## 🏗 Project Structure
 
 ```sh
-└── 📦 sistema-cadastro/
+└── 📦 registration-system/
     ├── 📂 backend/
-    │   ├── 📂 controllers/     # Controladores da API
-    │   ├── 📂 routes/         # Definição de rotas
-    │   ├── 📂 middleware/     # Middlewares de autenticação
-    │   ├── 📂 migrations/     # Scripts de migração do banco
+    │   ├── 📂 controllers/     # API controllers
+    │   ├── 📂 routes/         # Route definitions
+    │   ├── 📂 middleware/     # Authentication middlewares
+    │   ├── 📂 migrations/     # Database migration scripts
     │   ├── 📄 package.json
-    │   ├── 📄 server.js       # Servidor principal
-    │   └── 📄 knexfile.js     # Configuração do Knex
+    │   ├── 📄 server.js       # Main server
+    │   └── 📄 knexfile.js     # Knex configuration
     ├── 📂 frontend/
-    │   ├── 📂 public/         # Arquivos públicos
+    │   ├── 📂 public/         # Public files
     │   ├── 📂 src/
-    │   │   ├── 📂 components/ # Componentes React
-    │   │   ├── 📂 pages/      # Páginas da aplicação
-    │   │   ├── 📂 services/   # Serviços de API
-    │   │   └── 📄 App.js      # Componente principal
+    │   │   ├── 📂 components/ # React components
+    │   │   ├── 📂 pages/      # Application pages
+    │   │   ├── 📂 services/   # API services
+    │   │   └── 📄 App.js      # Main component
     │   ├── 📄 package.json
-    │   └── 📄 .env           # Variáveis de ambiente
-    ├── 📄 .env              # Variáveis de ambiente globais
-    ├── 📄 docker-compose.yml # Orquestração de containers
-    └── 📄 README.md          # Documentação
+    │   └── 📄 .env           # Environment variables
+    ├── 📄 .env              # Global environment variables
+    ├── 📄 docker-compose.yml # Container orchestration
+    └── 📄 README.md          # Documentation
 ```
 
 ---
 
-## ⚡ Começando
+## ⚡ Getting Started
 
-### 🛠 Pré-requisitos
+### 🛠 Prerequisites
 
-Antes de começar com o Sistema de Cadastro, certifique-se de que seu ambiente atende aos seguintes requisitos:
+Before starting with the Registration System, ensure your environment meets the following requirements:
 
 - <img align="center" src="https://img.shields.io/badge/Node.js-18+-339933?style=flat&logo=nodedotjs&logoColor=white" />
 - <img align="center" src="https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white" />
 - <img align="center" src="https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white" />
 - <img align="center" src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
 
-## ⚙️ Instalação
+## ⚙️ Installation
 
-Siga estos passos para configurar o projeto localmente:
+Follow these steps to set up the project locally:
 
-1. Clone o repositório:
+1. Clone the repository:
 ```bash
 git clone https://github.com/marcelonovello/sistema-cadastro
 cd sistema-cadastro
 ```
 
-2. Configure as variáveis de ambiente:
+2. Configure environment variables:
 ```bash
-# Backend - crie um arquivo .env na pasta backend/
+# Backend - create a .env file in the backend/ folder
 DB_HOST=localhost
 DB_PORT=3306
-DB_USER=seu_usuario
-DB_PASSWORD=sua_senha
-DB_NAME=sistema_cadastro
-JWT_SECRET=seu_jwt_secret
+DB_USER=your_username
+DB_PASSWORD=your_password
+DB_NAME=registration_system
+JWT_SECRET=your_jwt_secret
 PORT=3001
 ```
 
-3. Instale as dependências:
+3. Install dependencies:
 ```bash
 # Backend
 cd backend
 npm install
 
-# Frontend (em outro terminal)
+# Frontend (in another terminal)
 cd frontend
 npm install
 ```
 
-4. Configure o banco de dados:
+4. Configure the database:
 ```bash
-# Execute as migrations
+# Run migrations
 cd backend
 npx knex migrate:latest
 ```
 
-## 🚀 Uso
+## 🚀 Usage
 ### Backend
-1. Desenvolvimento:
+1. Development:
 ```bash
 cd backend
-npm run dev  # Desenvolvimento com hot reload
+npm run dev  # Development with hot reload
 ```
 
 ### Frontend
 ```bash
 cd frontend
-npm start    # Servidor de desenvolvimento React
+npm start    # React development server
 ```
 
-2. Produção:
+2. Production:
 ```bash
 # Backend
 cd backend
@@ -152,10 +146,10 @@ npm run build
 serve -s build
 ```
 
-3. Acesse o frontend no navegador em `http://localhost:3000`
+3. Access the frontend in your browser at `http://localhost:3000`
 
-## 🧪 Testes
-Execute os testes usando o seguinte comando:<br>
+## 🧪 Testing
+Run tests using the following command:<br>
 Backend:
 ```bash
 cd backend
@@ -170,113 +164,115 @@ cd frontend
 npm test
 ```
 
-## 🔧 Resolução de Problemas
-🚫 **Erro de conexão com o MySQL**:
+## 🔧 Troubleshooting
+🚫 **MySQL connection error**:
 ```bash
-# Verifique se o MySQL está rodando
+# Check if MySQL is running
 sudo service mysql start
 
-# Confirme as credenciais no arquivo .env
+# Confirm credentials in the .env file
 DB_HOST=localhost
 DB_USER=root
-DB_PASSWORD=sua_senha
+DB_PASSWORD=your_password
 ```
 
-🔑 Problemas de autenticação JWT:
+🔑 JWT authentication issues:
 ```bash
-# Verifique se o JWT_SECRET está definido
-JWT_SECRET=seu_secreto_super_seguro_aqui
+# Check if JWT_SECRET is defined
+JWT_SECRET=your_super_secure_secret_here
 ```
 
-📦 Dependências não instaladas corretamente:
+📦 Dependencies not installed correctly:
 ```bash
-# Delete node_modules e package-lock.json e reinstale
+# Delete node_modules and package-lock.json and reinstall
 rm -rf node_modules package-lock.json
 npm install
 ```
 
-🚪 Porta já em uso:
+🚪 Port already in use:
 ```bash
-# Altere a porta no arquivo .env
+# Change the port in the .env file
 PORT=3002
 ```
 
-🐛 Migrations falhando:
+🐛 Migrations failing:
 ```bash
-# Reverta e execute novamente as migrations
+# Rollback and run migrations again
 npx knex migrate:rollback
 npx knex migrate:latest
 ```
 
 ---
 
-## 🗺 Roteiro do Projeto
+## 🗺 Project Roadmap
 
-- [X] **`Init`**: Inicializar estrutura do projeto com backend e frontend separados.
-- [X] **`Config`**: Configurar ambiente com Node.js, React, MySQL e dependências.
-- [X] **`Backend`**: Desenvolver API RESTful com autenticação JWT e operações CRUD.
-- [ ] **`Database`**: Implementar migrations e configuração do banco MySQL.
-- [ ] **`Frontend`**: Criar interface React completa para gerenciamento de usuários.
-- [ ] **`Auth`**: Implementar sistema completo de autenticação no frontend.
-- [ ] **`Testing`**: Criar testes unitários e de integração para backend e frontend.
-- [ ] **`Deploy`**: Configurar ambiente de produção e deploy automatizado.
-- [ ] **`Docs`**: Documentar API com Swagger e criar guia de uso completo.
-- [ ] **`Docker`**: Containerizar aplicação com Docker e docker-compose.
-- [ ] **`CI/CD`**: Implementar pipeline de integração contínua e deploy.
-- [ ] **`Optimize`**: Otimizar performance e segurança da aplicação.
+- [X] **`Init`**: Initialize project structure with separated backend and frontend.
+- [X] **`Config`**: Configure environment with Node.js, React, MySQL and dependencies.
+- [X] **`Backend`**: Develop RESTful API with JWT authentication and CRUD operations.
+- [ ] **`Database`**: Implement migrations and MySQL database configuration.
+- [ ] **`Frontend`**: Create complete React interface for user management.
+- [ ] **`Auth`**: Implement complete authentication system in the frontend.
+- [ ] **`Testing`**: Create unit and integration tests for backend and frontend.
+- [ ] **`Deploy`**: Configure production environment and automated deployment.
+- [ ] **`Docs`**: Document API with Swagger and create complete usage guide.
+- [ ] **`Docker`**: Containerize application with Docker and docker-compose.
+- [ ] **`CI/CD`**: Implement continuous integration and deployment pipeline.
+- [ ] **`Optimize`**: Optimize application performance and security.
 
 ---
 
-## 👥 Contribuindo
+## 👥 Contributing
 
-- **💬 [Participe das Discussões](https://github.com/marcelonovello/sistema-cadastro/discussions)**: Compartilhe suas ideias, forneça feedback ou faça perguntas.
-- **🐛 [Reportar Problemas](https://github.com/marcelonovello/sistema-cadastro/issues)**: Envie bugs encontrados ou registre solicitações de novas funcionalidades para o projeto `sistema-cadastro`.
-- **💡 [Submeta Pull Requests](https://github.com/marcelonovello/sistema-cadastro/blob/main/CONTRIBUTING.md)**: Analise PRs abertos e envie seus próprios PRs.
+- **💬 [Join Discussions](https://github.com/marcelonovello/sistema-cadastro/discussions)**: Share your ideas, provide feedback, or ask questions.
+- **🐛 [Report Issues](https://github.com/marcelonovello/sistema-cadastro/issues)**: Submit bugs found or log feature requests for the  `sistema-cadastro` project.
+- **💡 [Submit Pull Requests](https://github.com/marcelonovello/sistema-cadastro/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
-<details closed> <summary>Diretrizes de Contribuição</summary>
-1. **Faça um Fork do Repositório**: Comece fazendo um fork do repositório para sua conta do GitHub.
-2. **Clone Localmente**: Clone o repositório forked para sua máquina usando um cliente git.
+<details closed>
+<summary>Contributing Guidelines</summary>
+
+1. **Fork the Repository**: Start by forking the repository to your github account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
    ```sh
    git clone https://github.com/marcelonovello/sistema-cadastro
    ```
-3. **Crie uma Nova Branch**: Sempre trabalhe em uma nova branch, dando um nome descritivo.
+3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
    ```sh
    git checkout -b new-feature-x
    ```
-4. **Faça Suas Alterações**: Desenvolva e teste suas alterações localmente.
-5. **Commit das Alterações**: Faça commit com uma mensagem clara descrevendo suas atualizações.
+4. **Make Your Changes**: Develop and test your changes locally.
+5. **Commit Your Changes**: Commit with a clear message describing your updates.
    ```sh
    git commit -m \'Implemented new feature x.\'
    ```
-6. **Push para o github**: Envie as alterações para seu repositório forked.
+6. **Push to github**: Push the changes to your forked repository.
    ```sh
    git push origin new-feature-x
    ```
-7. **Submeta um Pull Request**: Crie um PR contra o repositório original. Descreva claramente as mudanças e suas motivações.
-8. **Revisão**: Uma vez que o PR seja revisado e aprovado, ele será mergeado na branch principal. Parabéns pela contribuição!
+7. **Submit a Pull Request**: Create a PR against the original repository. Clearly describe the changes and their motivations.
+8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
 </details>
 
 <details closed>
-<summary>Gráfico de Contribuidores</summary>
+<summary>Contributor Graph</summary>
 <br>
 <p align="left">
-   <a href="https://github.com{/marcelonovello/Micro-Frontends-Application/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=marcelonovello/Micro-Frontends-Application">
+   <a href="https://github.com{/marcelonovello/sistema-cadastro/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=marcelonovello/sistema-cadastro">
    </a>
 </p>
 </details>
 
 ---
 
-## 📄 Licença
+## 📄 License
 
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for full details.
 
 ---
 
-## 📚 Agradecimentos
-- ⚡ **Node.js e Express**: Fornecem a base robusta para o backend da aplicação.
-- 🎨 **React.js**: Permite a construção de interfaces modernas e responsivas.
-- 🗃️ **MySQL e Knex.js**: Oferecem solução confiável para armazenamento e consulta de dados.
-- 🔐 **JSON Web Tokens**: Proporciona sistema seguro de autenticação.
-- 🛠️ **Comunidade Open Source**: Pelas inúmeras bibliotecas e ferramentas que tornam o desenvolvimento web moderno possível.
+📚 Acknowledgments
+- ⚡ **Node.js and Express**: Provide the robust foundation for the application backend.
+- 🎨 **React.js**: Enables building modern and responsive interfaces.
+- 🗃️ **MySQL and Knex.js**: Offer reliable solution for data storage and querying.
+- 🔐 **JSON Web Tokens**: Provides secure authentication system.
+- 🛠️ **Open Source Community**: For the countless libraries and tools that make modern web development possible.
