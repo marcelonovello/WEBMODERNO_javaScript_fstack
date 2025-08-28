@@ -119,27 +119,23 @@ npx knex migrate:latest
 ```
 
 ## 🚀 Usage
-### Backend
-1. Development:
+### Development:
 ```bash
+# backend
 cd backend
 npm run dev  # Development with hot reload
-```
 
-### Frontend
-```bash
+#frontend
 cd frontend
 npm start    # React development server
 ```
 
-2. Production:
+### Production:
 ```bash
 # Backend
 cd backend
 npm start
-```
 
-```bash
 # Frontend
 cd frontend
 npm run build
@@ -150,15 +146,13 @@ serve -s build
 
 ## 🧪 Testing
 Run tests using the following command:<br>
-Backend:
+### Backend:
 ```bash
 cd backend
 npm test
 ```
 
----
-
-Frontend:
+### Frontend:
 ```bash
 cd frontend
 npm test
