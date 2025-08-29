@@ -2,6 +2,7 @@
 
 <br> <h1 align="center">REGISTRATION SYSTEM 🔐</h1> <p align="center"> A complete registration system with modern architecture, built with Node.js, React, MySQL and modern web technologies. </p> <p align="center"> <a href="https://nodejs.org/"> <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" /> </a> <a href="https://reactjs.org/"> <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" /> </a> <a href="https://www.mysql.com/"> <img src="https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white" /> </a> <a href="./LICENSE"> <img src="https://img.shields.io/badge/license-MIT-yellow?style=flat" /> </a> </p>
 
+<a id="overview"></a>
 ## 🔍 Overview
 This project represents a full-stack user registration system. It allows users to:
 
@@ -10,7 +11,7 @@ This project represents a full-stack user registration system. It allows users t
 - 📋 Execute CRUD operations (Create, Read, Update, Delete) for users.
 - 🧩 Maintain a clear separation of responsibilities between frontend and backend modules.
 
-
+<a id="tech-stack"></a>
 ## 💻 Tech Stack
 <p> <img src="https://skillicons.dev/icons?i=js,nodejs,react,mysql,git,vscode" /> </p>
 
@@ -33,6 +34,7 @@ This project represents a full-stack user registration system. It allows users t
 
 ---
 
+<a id="features"></a>
 ## ✨ Features
 
 - 👥 **Register and manage users** with complete registration and login system
@@ -41,6 +43,7 @@ This project represents a full-stack user registration system. It allows users t
 - 🗃️ **MySQL database** for robust data storage
 - ⚡ **Modern development** with updated tools and best practices
 
+<a id="project-structure"></a>
 ## 🏗 Project Structure
 
 ```sh
@@ -69,8 +72,10 @@ This project represents a full-stack user registration system. It allows users t
 
 ---
 
+<a id="getting-started"></a>
 ## 🚀 Getting Started
 
+<a id="prerequisites"></a>
 ### ⚙️ Prerequisites
 
 Before starting with the Registration System, ensure your environment meets the following requirements:
@@ -80,6 +85,7 @@ Before starting with the Registration System, ensure your environment meets the 
 - <img align="center" src="https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white" />
 - <img align="center" src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
 
+<a id="installation"></a>
 ## ⬇️ Installation
 
 Follow these steps to set up the project locally:
@@ -120,6 +126,7 @@ cd backend
 npx knex migrate:latest
 ```
 
+<a id="usage"></a>
 ## 🛠️ Usage
 ### Development:
 ```bash
@@ -146,6 +153,7 @@ serve -s build
 
 3. Access the frontend in your browser at `http://localhost:3000`
 
+<a id="testing"></a>
 ## 🧪 Testing
 Run tests using the following command:<br>
 ### Backend:
@@ -160,6 +168,7 @@ cd frontend
 npm test
 ```
 
+<a id="troubleshooting"></a>
 ## 🔧 Troubleshooting
 🚫 **MySQL connection error**:
 ```bash
@@ -200,6 +209,7 @@ npx knex migrate:latest
 
 ---
 
+<a id="project-roadmap"></a>
 ## 🗺 Project Roadmap
 
 - [X] **`Init`**: Initialize project structure with separated backend and frontend.
@@ -217,6 +227,7 @@ npx knex migrate:latest
 
 ---
 
+<a id="contributing"></a>
 ## 👥 Contributing
 
 - **💬 [Join Discussions](https://github.com/marcelonovello/sistema-cadastro/discussions)**: Share your ideas, provide feedback, or ask questions.
@@ -260,12 +271,14 @@ npx knex migrate:latest
 
 ---
 
+<a id="license"></a>
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for full details.
 
 ---
 
+<a id="acknowledgments"></a>
 📚 Acknowledgments
 - ⚡ **Node.js and Express**: Provide the robust foundation for the application backend.
 - 🎨 **React.js**: Enables building modern and responsive interfaces.
