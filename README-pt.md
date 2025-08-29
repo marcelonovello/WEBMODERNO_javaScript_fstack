@@ -8,6 +8,7 @@
    <a href="./LICENSE"> <img src="https://img.shields.io/badge/license-MIT-yellow?style=flat" /> </a> 
 </p>
 
+<a id="visao-geral"></a>
 ## 🔎 Visão Geral
 Este projeto é uma ferramenta de produtividade para organização automatizada de caixas de entrada de e-mails, desenvolvida em Python. Permite que os usuários:
 
@@ -16,6 +17,7 @@ Este projeto é uma ferramenta de produtividade para organização automatizada 
 - ⭐ Priorizar e-mails importantes para acesso rápido.
 - 🧩 Design modular e extensível, permitindo adicionar novas regras ou provedores de e-mail.
 
+<a id="tecnologias"></a>
 ## 💻 Tecnologias
 <p> <img src="https://skillicons.dev/icons?i=js,nodejs,react,mysql,git,vscode" /> </p>
 
@@ -37,7 +39,7 @@ Este projeto é uma ferramenta de produtividade para organização automatizada 
 - [Agradecimentos](#agradecimentos)
 
 ---
-
+<a id="funcionalidades"></a>
 ## Funcionalidades ✨
 
 - 👥 **Cadastrar e gerenciar usuários** com sistema completo de registro e login
@@ -46,6 +48,7 @@ Este projeto é uma ferramenta de produtividade para organização automatizada 
 - 🗃️ **Banco de dados MySQL** para armazenamento robusto de dados
 - ⚡ **Desenvolvimento moderno** com ferramentas atualizadas e boas práticas
 
+<a id="estrutura-do-projeto"></a>
 ## 🏗 Estrutura do Projeto
 
 ```sh
@@ -73,9 +76,10 @@ Este projeto é uma ferramenta de produtividade para organização automatizada 
 ```
 
 ---
-
+<a id="comecando"></a>
 ## 🚀 Começando
 
+<a id="pre-requisitos"></a>
 ### ⚙️ Pré-requisitos
 
 Antes de começar com o Sistema de Cadastro, certifique-se de que seu ambiente atende aos seguintes requisitos:
@@ -125,7 +129,7 @@ npm install
 cd backend
 npx knex migrate:latest
 ```
-
+<a id="uso"></a>
 ## 🛠️ Uso
 ### Desenvolvimento:
 ```bash
@@ -152,7 +156,7 @@ serve -s build
 
 Acesse o frontend no navegador em `http://localhost:3000`
 
-
+<a id="testes"></a>
 ## 🧪 Testes
 Execute os testes usando o seguinte comando:<br>
 ### Backend:
@@ -167,6 +171,7 @@ cd frontend
 npm test
 ```
 
+<a id="resolucao-de-problemas"></a>
 ## 🔧 Resolução de Problemas
 🚫 **Erro de conexão com o MySQL**:
 ```bash
@@ -206,7 +211,7 @@ npx knex migrate:latest
 ```
 
 ---
-
+<a id="roteiro-do-projeto"></a>
 ## 🗺 Roteiro do Projeto
 
 - [X] **`Init`**: Inicializar estrutura do projeto com backend e frontend separados.
@@ -223,7 +228,7 @@ npx knex migrate:latest
 - [ ] **`Optimize`**: Otimizar performance e segurança da aplicação.
 
 ---
-
+<a id="contribuindo"></a>
 ## 👥 Contribuindo
 
 - **💬 [Participe das Discussões](https://github.com/marcelonovello/sistema-cadastro/discussions)**: Compartilhe suas ideias, forneça feedback ou faça perguntas.
@@ -264,13 +269,13 @@ npx knex migrate:latest
 </details>
 
 ---
-
+<a id="licenca"></a>
 ## 📄 Licença
 
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
-
+<a id="agradecimentos"></a>
 ## 📚 Agradecimentos
 - ⚡ **Node.js e Express**: Fornecem a base robusta para o backend da aplicação.
 - 🎨 **React.js**: Permite a construção de interfaces modernas e responsivas.
