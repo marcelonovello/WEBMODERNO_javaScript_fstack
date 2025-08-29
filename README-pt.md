@@ -36,13 +36,9 @@ Este projeto é uma ferramenta de produtividade para organização automatizada 
 - [Licenca](#licenca)
 - [Agradecimentos](#agradecimentos)
 
-
-
-
-
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades ✨
 
 - 👥 **Cadastrar e gerenciar usuários** com sistema completo de registro e login
 - 📊 **Operações CRUD completas** - criação, leitura, atualização e exclusão de dados
@@ -89,6 +85,7 @@ Antes de começar com o Sistema de Cadastro, certifique-se de que seu ambiente a
 - <img align="center" src="https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white" />
 - <img align="center" src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
 
+<a id="instalacao"></a>
 ## ⬇️ Instalação
 
 Siga estos passos para configurar o projeto localmente:
