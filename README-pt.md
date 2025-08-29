@@ -27,7 +27,7 @@ Este projeto é uma ferramenta de produtividade para organização automatizada 
 - 💻 [Tecnologias](#tecnologias)
 - ✨ [Funcionalidades](#funcionalidades)
 - 🏗 [Estrutura do Projeto](#estrutura-do-projeto)
-- 🚀 [Começando](#começando)
+- 🚀 [Começando](#comecando)
   - ⚙️ [Pré-requisitos](#pre-requisitos)
   - ⬇️ [Instalação](#instalacao)
   - 🛠️ [Uso](#uso)
