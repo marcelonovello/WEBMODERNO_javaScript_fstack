@@ -1,25 +1,29 @@
 [🇺🇸 English](./README.md)   |   [🇧🇷 Português](./README-pt.md)
 
-<br> <h1 align="center">REGISTRATION SYSTEM</h1> <p align="center"> A complete registration system with modern architecture, built with Node.js, React, MySQL and modern web technologies. </p> <p align="center"> <a href="https://nodejs.org/"> <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" /> </a> <a href="https://reactjs.org/"> <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" /> </a> <a href="https://www.mysql.com/"> <img src="https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white" /> </a> <a href="./LICENSE"> <img src="https://img.shields.io/badge/license-MIT-yellow?style=flat" /> </a> </p>
+<br> <h1 align="center">REGISTRATION SYSTEM 🔐</h1> <p align="center"> A complete registration system with modern architecture, built with Node.js, React, MySQL and modern web technologies. </p> <p align="center"> <a href="https://nodejs.org/"> <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" /> </a> <a href="https://reactjs.org/"> <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" /> </a> <a href="https://www.mysql.com/"> <img src="https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white" /> </a> <a href="./LICENSE"> <img src="https://img.shields.io/badge/license-MIT-yellow?style=flat" /> </a> </p>
 
-## 🔎 Overview
-This project represents a complete solution for user registration management, implementing an architecture that clearly separates responsibilities between frontend and backend. The application was developed to demonstrate full-stack development best practices, including secure authentication, CRUD operations, and an intuitive interface.
+## 🔍 Overview
+This project represents a full-stack user registration system. It allows users to:
 
-## 🛠 Technologies
+- 🔍 Browse and manage user registrations via a clean frontend interface.
+- 🔐 Perform secure authentication and access control.
+- 📋 Execute CRUD operations (Create, Read, Update, Delete) for users.
+- 🧩 Maintain a clear separation of responsibilities between frontend and backend modules.
+- 🐳 Dockerized and orchestrated: The application runs in Docker containers and can be easily deployed using docker-compose, ensuring smooth local development and production deployment.
+
+## 💻 Tech Stack
 <p> <img src="https://skillicons.dev/icons?i=js,nodejs,react,mysql,git,vscode" /> </p>
-
----
 
 ## 📑 Table of Contents
 
-- 📖 [Overview](#overview)
-- 🛠 [Tech Stack](#tech-stack) 
+- 🔍 [Overview](#overview)
+- 💻 [Tech Stack](#tech-stack) 
 - ✨ [Features](#features)
 - 🏗 [Project Structure](#project-structure)   
 - 🚀 [Getting Started](#getting-started)
-  - 🛠 [Prerequisites](#prerequisites)
-  - ⚙️ [Installation](#installation)
-  - 🚀 [Usage](#usage)
+  - ⚙️ [Prerequisites](#prerequisites)
+  - ⬇️ [Installation](#installation)
+  - 🛠️ [Usage](#usage)
   - 🧪 [Testing](#testing)
   	- 🔧 [Troubleshooting](#troubleshooting)
 - 🗺 [Project Roadmap](#project-roadmap)  
@@ -36,8 +40,6 @@ This project represents a complete solution for user registration management, im
 - 🔐 **JWT Authentication** for route protection and security
 - 🗃️ **MySQL database** for robust data storage
 - ⚡ **Modern development** with updated tools and best practices
-
----
 
 ## 🏗 Project Structure
 
@@ -67,9 +69,9 @@ This project represents a complete solution for user registration management, im
 
 ---
 
-## ⚡ Getting Started
+## 🚀 Getting Started
 
-### 🛠 Prerequisites
+### ⚙️ Prerequisites
 
 Before starting with the Registration System, ensure your environment meets the following requirements:
 
@@ -78,7 +80,7 @@ Before starting with the Registration System, ensure your environment meets the 
 - <img align="center" src="https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white" />
 - <img align="center" src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
 
-## ⚙️ Installation
+## ⬇️ Installation
 
 Follow these steps to set up the project locally:
 
@@ -118,7 +120,7 @@ cd backend
 npx knex migrate:latest
 ```
 
-## 🚀 Usage
+## 🛠️ Usage
 ### Development:
 ```bash
 # backend
@@ -270,3 +272,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - 🗃️ **MySQL and Knex.js**: Offer reliable solution for data storage and querying.
 - 🔐 **JSON Web Tokens**: Provides secure authentication system.
 - 🛠️ **Open Source Community**: For the countless libraries and tools that make modern web development possible.
+
+---
