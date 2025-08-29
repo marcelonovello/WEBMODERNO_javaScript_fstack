@@ -21,20 +21,21 @@ Este projeto é uma ferramenta de produtividade para organização automatizada 
 
 ## 📑 Sumário
 
-- [Visao Geral 🔎](#visao-geral)
-- [Tecnologias 💻](#tecnologias)
-- [Funcionalidades ✨](#funcionalidades)
-- [Estrutura do Projeto 🏗](#estrutura-do-projeto)
-- [Comecando 🚀](#comecando)
-  - [Pre-requisitos ⚙️](#pre-requisitos)
-  - [Instalacao ⬇️](#instalacao)
-  - [Uso 🛠️](#uso)
-  - [Testes 🧪](#testes)
-    - [Resolucao de Problemas 🔧](#resolucao-de-problemas)
-- [Roteiro do Projeto 🗺](#roteiro-do-projeto)
-- [Contribuindo 👥](#contribuindo)
-- [Licenca 📄](#licenca)
-- [Agradecimentos 📚](#agradecimentos)
+- [Visao Geral](#visao-geral)
+- [Tecnologias](#tecnologias)
+- [Funcionalidades](#funcionalidades)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Comecando](#comecando)
+  - [Pre-requisitos](#pre-requisitos)
+  - [Instalacao](#instalacao)
+  - [Uso](#uso)
+  - [Testes](#testes)
+    - [Resolucao de Problemas](#resolucao-de-problemas)
+- [Roteiro do Projeto](#roteiro-do-projeto)
+- [Contribuindo](#contribuindo)
+- [Licenca](#licenca)
+- [Agradecimentos](#agradecimentos)
+
 
 
 
