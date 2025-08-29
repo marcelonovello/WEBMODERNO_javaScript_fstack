@@ -41,7 +41,7 @@ Este projeto é uma ferramenta de produtividade para organização automatizada 
 
 ---
 <a id="funcionalidades"></a>
-## Funcionalidades ✨
+## ✨ Funcionalidades
 
 - 👥 **Cadastrar e gerenciar usuários** com sistema completo de registro e login
 - 📊 **Operações CRUD completas** - criação, leitura, atualização e exclusão de dados
@@ -130,6 +130,7 @@ npm install
 cd backend
 npx knex migrate:latest
 ```
+
 <a id="uso"></a>
 ## 🛠️ Uso
 ### Desenvolvimento:
@@ -229,6 +230,7 @@ npx knex migrate:latest
 - [ ] **`Optimize`**: Otimizar performance e segurança da aplicação.
 
 ---
+
 <a id="contribuindo"></a>
 ## 👥 Contribuindo
 
@@ -270,12 +272,14 @@ npx knex migrate:latest
 </details>
 
 ---
+
 <a id="licenca"></a>
 ## 📄 Licença
 
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
+
 <a id="agradecimentos"></a>
 ## 📚 Agradecimentos
 - ⚡ **Node.js e Express**: Fornecem a base robusta para o backend da aplicação.
