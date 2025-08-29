@@ -9,7 +9,7 @@ This project represents a full-stack user registration system. It allows users t
 - 🔐 Perform secure authentication and access control.
 - 📋 Execute CRUD operations (Create, Read, Update, Delete) for users.
 - 🧩 Maintain a clear separation of responsibilities between frontend and backend modules.
-- 🐳 Dockerized and orchestrated: The application runs in Docker containers and can be easily deployed using docker-compose, ensuring smooth local development and production deployment.
+
 
 ## 💻 Tech Stack
 <p> <img src="https://skillicons.dev/icons?i=js,nodejs,react,mysql,git,vscode" /> </p>
