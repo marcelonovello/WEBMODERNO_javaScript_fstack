@@ -9,23 +9,26 @@
 </p>
 
 ## 🔎 Visão Geral
-Este projeto representa uma solução completa para gestão de cadastros de usuários, implementando uma arquitetura que separa claramente as responsabilidades entre frontend e backend. A aplicação foi desenvolvida para demonstrar boas práticas de desenvolvimento full-stack, incluindo autenticação segura, operações CRUD e uma interface intuitiva.
+Este projeto é uma ferramenta de produtividade para organização automatizada de caixas de entrada de e-mails, desenvolvida em Python. Permite que os usuários:
 
-## 🛠 Tecnologias
+- 🔍 Organizar e categorizar e-mails automaticamente.
+- 🗑️ Limpar e remover mensagens desnecessárias ou spam de forma eficiente.
+- ⭐ Priorizar e-mails importantes para acesso rápido.
+- 🧩 Design modular e extensível, permitindo adicionar novas regras ou provedores de e-mail.
+
+## 💻 Tecnologias
 <p> <img src="https://skillicons.dev/icons?i=js,nodejs,react,mysql,git,vscode" /> </p>
-
----
 
 ## 📑 Sumário
 
-- 📖 [Visão Geral](#-visão-geral)
-- 🛠 [Tecnologias](#-tecnologias)
+- 🔎 [Visão Geral](#-visão-geral)
+- 💻 [Tecnologias](#-tecnologias)
 - ✨ [Funcionalidades](#-funcionalidades)
 - 🏗 [Estrutura do Projeto](#-estrutura-do-projeto)
 - 🚀 [Começando](#-começando)
-  - 🛠 [Pré-requisitos](#-pré-requisitos)
-  - ⚙️ [Instalação](#-instalação)
-  - 🚀 [Uso](#-uso)
+  - ⚙️ [Pré-requisitos](#-pré-requisitos)
+  - ⬇️ [Instalação](#-instalação)
+  - 🛠️ [Uso](#-uso)
   - 🧪 [Testes](#-testes)
   	- 🔧 [Resolução de Problemas](#-resolução-de-Problemas)
 - 🗺 [Roteiro do Projeto](#-roteiro-do-projeto)
@@ -42,8 +45,6 @@ Este projeto representa uma solução completa para gestão de cadastros de usu�
 - 🔐 **Autenticação JWT** para proteção de rotas e segurança
 - 🗃️ **Banco de dados MySQL** para armazenamento robusto de dados
 - ⚡ **Desenvolvimento moderno** com ferramentas atualizadas e boas práticas
-
----
 
 ## 🏗 Estrutura do Projeto
 
@@ -73,9 +74,9 @@ Este projeto representa uma solução completa para gestão de cadastros de usu�
 
 ---
 
-## ⚡ Começando
+## 🚀 Começando
 
-### 🛠 Pré-requisitos
+### ⚙️ Pré-requisitos
 
 Antes de começar com o Sistema de Cadastro, certifique-se de que seu ambiente atende aos seguintes requisitos:
 
@@ -84,7 +85,7 @@ Antes de começar com o Sistema de Cadastro, certifique-se de que seu ambiente a
 - <img align="center" src="https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white" />
 - <img align="center" src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
 
-## ⚙️ Instalação
+## ⬇️ Instalação
 
 Siga estos passos para configurar o projeto localmente:
 
@@ -124,7 +125,7 @@ cd backend
 npx knex migrate:latest
 ```
 
-## 🚀 Uso
+## 🛠️ Uso
 ### Desenvolvimento:
 ```bash
 # backend
@@ -275,3 +276,5 @@ Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](L
 - 🗃️ **MySQL e Knex.js**: Oferecem solução confiável para armazenamento e consulta de dados.
 - 🔐 **JSON Web Tokens**: Proporciona sistema seguro de autenticação.
 - 🛠️ **Comunidade Open Source**: Pelas inúmeras bibliotecas e ferramentas que tornam o desenvolvimento web moderno possível.
+
+---
